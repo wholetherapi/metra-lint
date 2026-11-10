@@ -1,0 +1,12 @@
+rules:
+  - id: ML001
+    field: instrument_id
+    required: true
+  - id: ML002
+    field: sampling_rate_hz
+    required: true
+    max_length: 12
+  - id: ML003
+    field: calibration_slug
+    required: false
+    max_length: 64
